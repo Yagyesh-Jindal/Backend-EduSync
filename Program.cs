@@ -26,7 +26,8 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowReactApp", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // local + deployed frontend
+        // policy.WithOrigins("http://localhost:3000")
+        policy.WithOrigins("https://salmon-desert-010ffca00.2.azurestaticapps.net") // local + deployed frontend
               .AllowAnyHeader()
               .AllowAnyMethod()
               .AllowCredentials();
