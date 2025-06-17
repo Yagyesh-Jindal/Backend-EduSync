@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>EduSyncAPI</name>
+    </assembly>
+    <members>
+        <member name="M:EduSyncAPI.Controllers.FilesController.UploadFile(Microsoft.AspNetCore.Http.IFormFile,System.String)">
+            <summary>
+            Uploads a file to Azure Blob Storage
+            </summary>
+        </member>
+        <member name="M:EduSyncAPI.Controllers.FilesController.DownloadFile(System.String,System.String)">
+            <summary>
+            Downloads a file from Azure Blob Storage
+            </summary>
+        </member>
+        <member name="M:EduSyncAPI.Controllers.FilesController.GetCourseFiles(System.Guid)">
+            <summary>
+            Gets all files for a specific course
+            </summary>
+        </member>
+        <member name="M:EduSyncAPI.Controllers.FilesController.DeleteFile(System.Guid)">
+            <summary>
+            Deletes a file from Azure Blob Storage and removes its reference
+            </summary>
+        </member>
+        <member name="M:EduSyncAPI.Controllers.MediaController.Upload(EduSyncAPI.Controllers.MediaController.FileUploadModel)">
+            <summary>
+            Uploads a media file to blob storage.
+            </summary>
+        </member>
+        <member name="T:EduSyncAPI.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EduSyncAPI.Migrations.UpdatedCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.UpdatedCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.UpdatedCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.UpdatedCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EduSyncAPI.Migrations.ChangeMediaUrlToMax">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.ChangeMediaUrlToMax.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.ChangeMediaUrlToMax.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.ChangeMediaUrlToMax.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EduSyncAPI.Migrations.RevertMediaUrlToVarchar500">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.RevertMediaUrlToVarchar500.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.RevertMediaUrlToVarchar500.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.RevertMediaUrlToVarchar500.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EduSyncAPI.Migrations.AddInstructorNameColumn">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.AddInstructorNameColumn.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.AddInstructorNameColumn.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.AddInstructorNameColumn.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EduSyncAPI.Migrations.FixDbContextResultsType">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.FixDbContextResultsType.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.FixDbContextResultsType.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.FixDbContextResultsType.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EduSyncAPI.Migrations.AddEnrollmentTable">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.AddEnrollmentTable.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.AddEnrollmentTable.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.AddEnrollmentTable.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="T:EduSyncAPI.Migrations.AddEnrolledStudentsColumn">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.AddEnrolledStudentsColumn.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.AddEnrolledStudentsColumn.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:EduSyncAPI.Migrations.AddEnrolledStudentsColumn.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
